@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/plugin/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+ 
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>EU AI Act: High-Risk AI Systems</title>
+</head>
+
+<body>
+    <div id="myDiv" class="animate-bottom">
+        <header id="myHeader">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img class="logo_navbar" src="assets/images/homepage/sidelogo-white.svg" alt="" /></a>
+                    <a class="nav-link theme_btn" href="#">Existing Users</a>
+                </div>
+            </nav>
+        </header>
+
+        <section class="container mt-5">
+            <h1>High-Risk AI Systems under EU AI Act</h1>
+            <p>Under Article 6 of the EU AI Act, AI systems intended to be used as a safety component of the following products are automatically considered high risk:</p>
+            <ul>
+                <li>Machinery - Covers various mechanical devices and installations, such as industrial machines.</li>
+                <li>Toys - Pertains to consumer products designed for children's play.</li>
+                <li>Recreational Craft and Personal Watercraft - Includes boats, yachts, jet skis, and similar water vehicles.</li>
+                <li>Lifts and Safety Components for Lifts - Involves elevators and their critical safety parts.</li>
+                <li>Equipment for Potentially Explosive Atmospheres - Refers to devices used in environments where explosive conditions may exist.</li>
+                <li>Radio Equipment - Encompasses devices that emit or receive radio waves for communication.</li>
+                <li>Pressure Equipment - Covers vessels, piping, safety valves, and other components designed to hold or transport pressurized substances.</li>
+                <li>Cableway Installations - Includes cable cars, ski lifts, and similar transport systems used primarily in mountainous areas.</li>
+                <li>Personal Protective Equipment (PPE) - Encompasses items like helmets, gloves, and protective clothing.</li>
+                <li>Appliances Burning Gaseous Fuels - Refers to gas-operated devices such as heaters and stoves.</li>
+                <li>Medical Devices - Includes a broad range of instruments, machines, and implants used in healthcare.</li>
+                <li>In Vitro Diagnostic Medical Devices - Pertains to devices used to perform tests on samples outside a living organism, such as blood tests.</li>
+                <li>Civil Aviation Security - Relates to the security measures and equipment used in civil aviation.</li>
+                <li>Two- or Three-Wheel Vehicles and Quadricycles - Covers motorcycles, scooters, and similar small motor vehicles.</li>
+                <li>Agricultural and Forestry Vehicles - Includes tractors, harvesters, and other heavy machinery used in farming and forestry.</li>
+                <li>Marine Equipment - Encompasses items used on ships, such as safety gear and navigation devices.</li>
+                <li>Rail System Interoperability - Relates to the compatibility of rail infrastructure, vehicles, and systems across the EU.</li>
+                <li>Motor Vehicles and Trailers - Covers cars, trucks, trailers, and all related components and systems.</li>
+                <li>General Safety of Motor Vehicles - Focuses on the overall safety requirements for motor vehicles and their occupants.</li>
+                <li>Aircraft and Unmanned Aerial Vehicles (UAVs) - Includes manned aircraft, drones, and related parts and equipment.</li>
+            </ul>
+            <p>For a full list and more details, see Annex II of the EU AI Act.</p>
+        </section>
+        
+    </div>
+
+    <script src="assets/plugin/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/plugin/jquery.js"></script>
+    <script src="assets/plugin/owl-slider/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
