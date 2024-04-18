@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="assets/plugin/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
  
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
@@ -48,17 +50,29 @@
                     <div class="row">
                         <div class="col-lg-7 col-md-10 mx-auto">
                             <div class="content">
-                                <h1>
+                                <h1><div id="typewriter"></div>for AI</h1>
+                                <script>
+                                    var app = document.getElementById('typewriter');
+                            
+                                    var typewriter = new Typewriter(app, {
+                                        strings: ['Compliance', 'Quality management', 'Safety policies', 'Regulated benchmarking'],
+                                        autoStart: true,
+                                        loop: true
+                                    });
+                                </script>   
+                                
+                                <h2 class="text-center">The developer friendly,<br/>globally scalable,<br/><em>compliance toolkit for AI</em></h2>
+                                <!-- <h1>
                                     AI compliance, <br/> made simple, <br/> everywhere.
-                                </h1>
-                                <p>
-                                    We'll help you figure out your regulatory requirements, and make it easy to meet them.
-                                </p>
+                                </h1> -->
                                 <div class="stores_links">
                                     <a href="/assess.html" class="btn theme_btn">
                                         Start the process <i class="fas fa-angle-right"></i></a>
                                     <!-- <a href="" class="btn theme_btn_outline">Learn more </a> -->
                                 </div>
+                                <p class="mt-3">
+                                    We'll help you figure out your regulatory requirements, and make it easy to meet them.
+                                </p>
                                 <p class="mt-3">Already a user? <a class="text-primary" href="https://app.scalesafe.ai">Log In</a></p>
                             </div>
                         </div>
