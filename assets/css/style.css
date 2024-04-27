@@ -50,6 +50,22 @@ a:hover {
   background-color: #582597;
 }
 
+.github_btn {
+  font-size: 16px;
+  background-color: #24292e;
+  border-radius: 10px;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.github_btn:hover {
+  color: #24292e;
+  border: 1px solid #24292e;
+  background-color: transparent;
+}
+
 .sticky {
   position: fixed;
   top: 0;
